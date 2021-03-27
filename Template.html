@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>%SHEET_NAME%</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="author" content="Ronald Fonseca">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        h1 {
+            text-align: center;
+            color: #1C6EA4
+        }
+        h2 {
+            margin-bottom: 0px;
+            color: #727272;
+            text-align: center;
+            font-size: 1.3em;
+        }
+        table {
+            font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            background-color: #EEEEEE;
+            width: 100%;
+            text-align: center;
+            border-collapse: collapse;
+            margin: auto
+        }
+        #content table {
+            max-width: 500px;
+        }
+        #gender table {
+            max-width: 350px;
+            font-weight: bold
+        }
+        table td,
+        table th {
+            border: 1px solid #AAAAAA;
+            padding: 4px 0px;
+        }
+        table tbody td {
+            font-size: 13px;
+        }
+        table tr:nth-child(even) {
+            background: #D0E4F5;
+        }
+        table thead {
+            background: #1C6EA4;
+            background: -moz-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+            background: -webkit-linear-gradient(top, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+            background: linear-gradient(to bottom, #5592bb 0%, #327cad 66%, #1C6EA4 100%);
+        }
+        table thead th {
+            font-size: 15px;
+            font-weight: bold;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Class Data</h1>
+    <h2>Gender Statistics</h2>
+    <div id="gender">
+        <table>
+            <thead>
+                <tr>
+                    <th>Females</th>
+                    <th>Males</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>%LADIES%</td>
+                    <td>%GENTLEMEN%</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <h2>Students Achievements</h2>
+    <div id='content'>
+        %CLASS_TABLE%
+    </div>
+</body>
+
+</html>

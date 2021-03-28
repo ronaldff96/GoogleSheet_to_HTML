@@ -109,6 +109,7 @@ def generate_HTML(title, ladies, gentlemen, class_table_html):
 	html = html.replace('%LADIES%', ladies)
 	html = html.replace('%GENTLEMEN%', gentlemen)
 	html = html.replace('%CLASS_TABLE%', class_table_html)
+	html = html.replace('%SPREADSHEET_ID%', Spreadsheet_ID)
 
 	#Generate the HTML file
 	file_directory = 'Output File'

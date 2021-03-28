@@ -3,7 +3,7 @@ This python project uses the [main.py](https://github.com/ronaldff96/GoogleSheet
 
 You can see the obtained output [here](https://ronaldff.com/python/GoogleSheet_to_HTML/Output "here"). 
 
-###Prerequisites
+### Prerequisites
 
 To run the [main.py](https://github.com/ronaldff96/GoogleSheet_to_HTML/blob/main/main.py "main.py") script, you will need:
 
@@ -17,15 +17,10 @@ You will also need to:
 - Install the Google Client Library with PIP.
 	`pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib`
 
-[========]
 
 ### Step by step tutorial
 The following video shows the steps needed to run the script properly.
 
-<!-- blank line -->
-<figure class="video_container">
-  <iframe src="https://ronaldff.com/python/GoogleSheet_to_HTML/video" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-<!-- blank line -->
 
+https://user-images.githubusercontent.com/63442427/112740883-12c03080-8f46-11eb-988b-df9aef5921e3.mp4
 

@@ -20,7 +20,3 @@ You will also need to:
 
 ### Step by step tutorial
 The following video shows the steps needed to run the script properly.
-
-
-https://user-images.githubusercontent.com/63442427/112740883-12c03080-8f46-11eb-988b-df9aef5921e3.mp4
-

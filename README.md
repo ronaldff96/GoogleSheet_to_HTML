@@ -18,6 +18,5 @@ You will also need to:
 	```shell
 	pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib
 
-
 ### Step by step tutorial
 The following video shows the steps needed to run the script properly.
